@@ -1,0 +1,9 @@
+To build, you need to link to
+	libboost_thread
+		-lboost_thread
+	libboost_program_options
+		-lboost_program_options
+	libvlc
+		-lvlc
+
+g++ [bla] -lboost_thread -lboost_program_option -lvlc
